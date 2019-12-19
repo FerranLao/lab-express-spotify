@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 hbs.registerPartials(__dirname + "/views/partials");
 
 var clientId = "47588c328876436cbe7bb158c10dfebc",
-  clientSecret = "6429a53f90ce424fba5a00752c8e1570";
+ 
 
 var spotifyApi = new SpotifyWebApi({
   clientId: clientId,
